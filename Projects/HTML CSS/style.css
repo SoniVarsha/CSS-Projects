@@ -1,0 +1,209 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-image {
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg');
+    background-size: auto, cover;
+    background-color: #c1c3cc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 85vh;
+    opacity: 0.7;
+
+}
+
+.box-model {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+    height: 80px;
+}
+
+.nuuk {
+    background-color: rgb(245, 106, 56);
+    padding: 40px;
+    width: 10%;
+    position: relative;
+    left: 20px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.menu-items {
+    margin-top: 30px;
+    display: flex;
+}
+
+.items {
+    margin-right: 15px;
+}
+
+.button {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    background-color: orangered;
+}
+
+.sub-page-items {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.heading-top {
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.heading-top-dream {
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: azure;
+}
+
+.heading-top-paragraph {
+    color: hwb(0 0% 100% / 0.445);
+}
+
+.top-side {
+    display: flex;
+    background-color: rgb(228, 97, 50);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 120px;
+    padding: 40px;
+    margin-right: 100px;
+    left: 90px;
+}
+
+.sub-top-side {
+    margin: 0px 70px;
+}
+
+.side-bar {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    position: absolute;
+    bottom: 250px;
+    right: 15px;
+    padding: 5px;
+}
+
+.services {
+    margin-top: 0px;
+    opacity: 0.1;
+    font-size: 80px;
+    margin-left: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 0px;
+}
+
+.specialization {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.View-all-Services {
+    position: absolute;
+    right: 30px;
+    bottom: -180px;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.group {
+    /* display: flex; */
+    /* justify-content: space-around; */
+  margin-left: 120px;
+}
+
+.learn {
+    color: rgb(150, 172, 194);
+    font-weight: bold;
+}
+
+    @media screen and (max-width:400px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .box-model {
+        margin: 0px;
+        width: 100vw;
+    }
+
+    .items {
+        display: none;
+    }
+
+    .bg-image {
+        margin: 0px;
+        width: 100vw;
+        height: 380px;
+    }
+
+    .top-side {
+        display: none;
+    }
+
+    .heading-top {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .heading-top-dream {
+        font-size: 30px;
+    }
+
+    .side-bar {
+        position: absolute;
+        bottom: -120px;
+        right: 0px;
+    }
+
+    .services {
+        display: none;
+    }
+
+    .specialization {
+        position: relative;
+        top: 40px;
+        left: 15px;
+        font-size: 15px;
+    }
+
+    .View-all-Services {
+        position: relative;
+        top: 55px;
+        left: 20px;
+        margin-bottom: 90px;
+    }
+
+    .group {
+        display: column;
+        margin-left: 0px;
+    }
+
+    .ren-space {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
